@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    padding: 20px 0px 0px 30px;
+
+    top: 0px;
+    background-color: white;
+
+
+    .app__brand__text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        color: #1f2128;
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+
+    .logo {
+        padding: 3px 4px;
+        border-radius: 5px;
+        background-color: #a162f7;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-bottom: 7px;
+
+            .items-name {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #5F6165;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .under-slider {
+        padding: 200px 0px 0px;
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-bottom: 30px;
+            cursor: pointer;
+        }
+    }
+
+}
