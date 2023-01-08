@@ -10,6 +10,10 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import BoltOutlinedIcon from "@mui/icons-material/BoltOutlined";
+import HeightOutlinedIcon from "@mui/icons-material/HeightOutlined";
+  import OpacityTwoToneIcon from "@mui/icons-material/OpacityTwoTone";
+
 
 export {
   GridViewRoundedIcon as HomeIcon,
@@ -24,4 +28,7 @@ export {
   LogoutOutlinedIcon as ModalIcon,
   ArrowBackIcon,
   ArrowRightOutlinedIcon as ArrowIcon,
+  BoltOutlinedIcon as Energy,
+  HeightOutlinedIcon as Range,
+  OpacityTwoToneIcon as Break
 };
