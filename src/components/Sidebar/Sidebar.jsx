@@ -13,6 +13,7 @@ import {
   WizardIcon,
   ModalIcon,
 } from "./Icons";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -23,18 +24,18 @@ function Sidebar() {
         </span>
         <span className="app__brand__text">Motiv.</span>
         <div className="menu">
-          <div className="item">
+         <Link to="/"> <div className="item">
             <HomeIcon style={{ color: "#5F6165" }} />
             <span className="items-name">Dashboards</span>
-          </div>
+          </div></Link>
           <div className="item">
             <LayoutIcon style={{ color: "#5F6165" }} />
             <span className="items-name">Assets</span>
           </div>
-          <div className="item">
+      <Link to="booking">    <div className="item">
             <CalendarIcon style={{ color: "#5F6165" }} />
             <span className="items-name">Booking</span>
-          </div>
+          </div></Link>
           <div className="item">
             <InvoiceIcon style={{ color: "#5F6165" }} />
             <span className="items-name">Sell Cars</span>
